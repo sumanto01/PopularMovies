@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/review_item_offset"
+    android:layout_marginRight="@dimen/review_item_offset"
+    android:background="@drawable/bg_review_item"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/detail_vertical_padding"
+    android:paddingLeft="@dimen/detail_horizontal_padding"
+    android:paddingRight="@dimen/detail_horizontal_padding"
+    android:paddingTop="@dimen/detail_vertical_padding">
+
+    <TextView
+        android:id="@+id/review_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/regular_text_size"
+        android:textStyle="bold"
+        android:textColor="@color/text_color_for_movie_overview" />
+
+    <TextView
+        android:id="@+id/review_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="5"
+        android:textColor="@color/primary_text" />
+
+</LinearLayout>

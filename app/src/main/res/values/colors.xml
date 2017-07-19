@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <color name="colorPrimary">#FF5722</color>
+    <color name="colorPrimaryDark">#E64A19</color>
+    <color name="colorPrimaryLight">#FFCCBC</color>
+    <color name="colorAccent">#7A1EA1</color>
+    <color name="colorAccent2">#CDDC39</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+
+    <color name="empty_view_text_color">#BDBDBD</color>
+    <color name="text_color_for_movie_overview">@android:color/black</color>
+    <color name="purple">#7A1EA1</color>
+    <color name="red">#BB2222</color>
+    <color name="green">#22BB22</color>
+</resources>
